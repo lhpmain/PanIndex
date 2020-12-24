@@ -1,5 +1,5 @@
 # PanIndex
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/libsgh/PanIndex)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/lhpmain/PanIndex)
 
 简易的天翼云网盘目录列表
 - [x] cookie方式
@@ -82,7 +82,7 @@ $ ./PanIndex -config.path=config.json
 |  id             | 1     | 否    | 加密目录id                                              | 5149xxx1353335                 |
 |  pwd            | 1     | 否    | 加密目录访问密码                                        | 1234                           |
 |  hide_file_id   | 0     | 否    | 隐藏目录id ，多个文件`,`分隔                            | 213123,23445                   |
-|  heroku_app_url | 0     | 否    | 部署后的herokuapp网盘地址，heroku部署必须               | https://app-name.herokuapp.com |
+|  heroku_app_url | 0     | 否    | 部署后的herokuapp网盘地址，heroku部署必须               | https://*******.herokuapp.com |
 |  api_token      | 0     | 否    | 调用私有api的秘钥                                       | 1234                           |
 |  theme          | 0     | 是    | 使用的主题，目前支持 classic, bootstrap, materialdesign | bootstrap                      |
 |  damagou        | 1     | 否    | 打码狗平台的用户名和密码，用于识别验证码                | username,password              |
@@ -102,7 +102,7 @@ config.json
         }
     ],
     "hide_file_id": "",
-    "heroku_app_url":"https://pan-index.herokuapp.com",
+    "heroku_app_url":"https://******.herokuapp.com",
     "api_token": "1234",
     "theme": "bootstrap",
     "damagou": {
